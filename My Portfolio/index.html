@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08090b" />
+  <meta name="description" content="Anas Murtaza — independent web developer and digital creator building thoughtful websites and practical digital experiences." />
+  <meta property="og:title" content="Anas Murtaza — Digital Developer" />
+  <meta property="og:description" content="Thoughtful websites. Purposeful digital experiences." />
+  <meta property="og:type" content="website" />
+  <title>Anas Murtaza — Digital Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="preloader" id="preloader" aria-label="Loading website">
+    <div class="preloader-mark">AM<span>.</span></div>
+    <div class="preloader-track"><span></span></div>
+    <p>DESIGNING THE EXPERIENCE</p>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Anas Murtaza home">AM<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#expertise" class="nav-link">Expertise</a>
+      <a href="#work" class="nav-link">Selected work</a>
+      <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-topline reveal"><span class="status-dot"></span> INDEPENDENT DEVELOPER &amp; DIGITAL CREATOR</div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-title">Building digital<br />things with<br /><em>purpose.</em></h1>
+          <div class="hero-bottom-grid">
+            <div class="hero-identity">
+              <span class="eyebrow">I'M ANAS MURTAZA</span>
+              <p class="role-line"><span id="roleText">Web Developer</span><i class="typing-caret"></i></p>
+            </div>
+            <p class="hero-intro">I design and build thoughtful websites and practical digital solutions that help ideas and businesses move forward.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-gold magnetic" href="#work">Explore my work <span>↗</span></a>
+            <a class="text-link magnetic" href="#contact">Start a conversation <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-image-frame"><img src="Images/hero-image.png" alt="A creative developer workspace" /></div>
+          <div class="visual-index"><span>01</span> / 04 <b>+</b></div>
+          <div class="floating-note"><span class="note-icon">〈/〉</span><span>Turning ideas<br />into reality</span></div>
+          <div class="visual-caption"><span></span> DESIGN · DEVELOP · DELIVER</div>
+        </div>
+      </div>
+      <div class="hero-footer"><span>BASED IN PAKISTAN</span><i></i><span>AVAILABLE FOR SELECT PROJECTS</span><a href="#about">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+
+    <section class="intro-band section-shell reveal">
+      <p class="eyebrow">A LITTLE ABOUT MY APPROACH</p>
+      <h2>Good design gets attention.<br /><em>Great experiences earn trust.</em></h2>
+      <p class="intro-band-note">I care about the details — from the first impression to the final interaction.</p>
+    </section>
+
+    <section class="about-section section-shell section-pad" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / THE PERSON BEHIND THE PIXELS</p><span class="section-index">ABOUT</span></div>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal"><img src="Images/about.png" alt="Anas Murtaza" /><div class="image-stamp">CREATIVE<br />MINDSET <b>✳</b></div></div>
+        <div class="about-copy reveal">
+          <h2>Curious by nature.<br /><em>Driven to create.</em></h2>
+          <p class="large-copy">I'm Anas Murtaza, a student and aspiring software engineer with a strong interest in web development and digital products.</p>
+          <p>I enjoy turning ideas into clean, useful and engaging web experiences. I keep learning, experimenting and improving with every project I build.</p>
+          <a class="underlined-link" href="#contact">Have a project in mind? <span>Let's talk ↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="expertise-section section-shell section-pad" id="expertise">
+      <div class="section-heading reveal"><p class="eyebrow">02 / WHAT I DO</p><span class="section-index">EXPERTISE</span></div>
+      <div class="expertise-heading reveal"><h2>Thoughtful work.<br /><em>Useful outcomes.</em></h2><p>Combining design thinking with practical development to create digital experiences that feel clear, considered and easy to use.</p></div>
+      <div class="expertise-list">
+        <article class="expertise-item reveal"><span class="expertise-number">01</span><div><h3>Website Design &amp; Development</h3><p>Responsive websites with considered layouts, clear content and polished interactions.</p></div><span class="expertise-symbol">↗</span></article>
+        <article class="expertise-item reveal"><span class="expertise-number">02</span><div><h3>Business Websites</h3><p>Professional online presence for businesses, services and growing ideas.</p></div><span class="expertise-symbol">↗</span></article>
+        <article class="expertise-item reveal"><span class="expertise-number">03</span><div><h3>UI Implementation</h3><p>Translating visual concepts into responsive, accessible front-end interfaces.</p></div><span class="expertise-symbol">↗</span></article>
+        <article class="expertise-item reveal"><span class="expertise-number">04</span><div><h3>Digital Product Exploration</h3><p>Learning and building practical software concepts with a focus on real-world needs.</p></div><span class="expertise-symbol">↗</span></article>
+      </div>
+      <div class="toolkit reveal"><span class="eyebrow">CURRENT TOOLKIT</span><div class="tool-list"><span>HTML5</span><i></i><span>CSS3</span><i></i><span>JavaScript</span><i></i><span>Responsive UI</span><i></i><span>GitHub</span><i></i><span>VS CODE</span></div></div>
+    </section>
+
+    <section class="work-section section-shell section-pad" id="work">
+      <div class="section-heading reveal"><p class="eyebrow">03 / A FEW THINGS I'VE PUT INTO MOTION</p><span class="section-index">SELECTED WORK</span></div>
+      <div class="work-intro reveal"><h2>A few things<br />I've <em>put into motion.</em></h2><p>A selection of website projects exploring design, layout and front-end development.</p></div>
+
+      <div class="project-grid">
+        <article class="project-card reveal"><a class="project-image" href="https://itzanasmurtaza-svg.github.io/royal-dastarkhwan-restaurant/" target="_blank" rel="noopener"><img src="Images/project2.png" alt="Royal Dastarkhwan restaurant website" /><span class="project-open">VIEW PROJECT ↗</span></a><div class="project-meta"><div><span class="eyebrow">01 / RESTAURANT WEBSITE</span><h3>Royal Dastarkhwan</h3><p>A restaurant website concept with an inviting visual direction.</p></div><a href="https://github.com/itzanasmurtaza-svg/royal-dastarkhwan-restaurant" target="_blank" rel="noopener" class="project-github">GITHUB ↗</a></div></article>
+        <article class="project-card reveal"><a class="project-image" href="https://itzanasmurtaza-svg.github.io/nexora-academy-website/" target="_blank" rel="noopener"><img src="Images/project3.png" alt="Nexora Academy website" /><span class="project-open">VIEW PROJECT ↗</span></a><div class="project-meta"><div><span class="eyebrow">02 / EDUCATION WEBSITE</span><h3>Nexora Academy</h3><p>An education platform concept with a structured, modern layout.</p></div><a href="https://github.com/itzanasmurtaza-svg/nexora-academy-website" target="_blank" rel="noopener" class="project-github">GITHUB ↗</a></div></article>
+      </div>
+      <div class="project-grid project-grid-secondary">
+        <article class="project-card reveal"><a class="project-image" href="https://itzanasmurtaza-svg.github.io/aurelia-grand-hotel/" target="_blank" rel="noopener"><img src="Images/restaurant.png" alt="Aurelia Grand Hotel website preview" /><span class="project-open">VIEW PROJECT ↗</span></a><div class="project-meta"><div><span class="eyebrow">03 / HOSPITALITY WEBSITE</span><h3>Aurelia Grand Hotel</h3><p>A hospitality website concept built around an elegant presentation.</p></div><a href="https://github.com/itzanasmurtaza-svg/aurelia-grand-hotel" target="_blank" rel="noopener" class="project-github">GITHUB ↗</a></div></article>
+        <article class="project-card reveal"><a class="project-image" href="https://itzanasmurtaza-svg.github.io/modern-business-website-/" target="_blank" rel="noopener"><img src="Images/project1.png" alt="Modern business website preview" /><span class="project-open">VIEW PROJECT ↗</span></a><div class="project-meta"><div><span class="eyebrow">04 / BUSINESS WEBSITE</span><h3>Modern Business</h3><p>A clean business website concept with a focus on clarity.</p></div><a href="https://github.com/itzanasmurtaza-svg/modern-business-website-" target="_blank" rel="noopener" class="project-github">GITHUB ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="manifesto-section section-shell reveal"><p class="eyebrow">THE PRINCIPLE</p><h2>Make it clear.<br />Make it useful.<br /><em>Make it matter.</em></h2><div class="manifesto-bottom"><span>ANAS MURTAZA — PERSONAL PORTFOLIO</span><span>DESIGNED WITH INTENTION ↗</span></div></section>
+
+    <section class="company-note section-shell reveal"><div><span class="eyebrow">A LONG-TERM VISION</span><h2>Building towards<br /><em>ANAS SOFTWARES.</em></h2></div><p>A future-focused software venture exploring practical digital solutions. One idea, one project and one lesson at a time.</p><span class="coming-soon">IN DEVELOPMENT · FUTURE VISION</span></section>
+
+    <section class="contact-section section-shell section-pad" id="contact">
+      <div class="section-heading reveal"><p class="eyebrow">04 / HAVE SOMETHING IN MIND?</p><span class="section-index">CONTACT</span></div>
+      <div class="contact-grid reveal"><div><h2>Let's make<br />something <em>meaningful.</em></h2><p class="contact-description">Have an idea, a question or a project to discuss? Send a message. I'd be glad to hear about it.</p></div><div class="contact-details"><a class="contact-email" href="mailto:itzanasmurtaza@gmail.com">itzanasmurtaza@gmail.com <span>↗</span></a><a href="https://wa.me/923094329900" target="_blank" rel="noopener">WhatsApp <span>↗</span></a><a href="https://github.com/itzanasmurtaza-svg" target="_blank" rel="noopener">GitHub <span>↗</span></a><a href="https://instagram.com/itzanas_012" target="_blank" rel="noopener">Instagram <span>↗</span></a></div></div>
+      <a class="button button-gold contact-button" href="https://wa.me/923094329900" target="_blank" rel="noopener">Start a conversation <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="brand" href="#home">AM<span>.</span></a><p>© <span id="year"></span> ANAS MURTAZA. BUILT WITH INTENTION.</p><a href="#top">BACK TO TOP ↑</a></footer>
+</body>
+</html>
